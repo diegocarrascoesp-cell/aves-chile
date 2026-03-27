@@ -1,0 +1,59 @@
+export default function Especies() {
+  const aves = [
+    {
+      nombre: "Zorzal",
+      cientifico: "Turdus falcklandii",
+      desc: "Pecho anaranjado, muy común en jardines.",
+      img: "/imagenes/zorzal1.jpg",
+      audio: "/audios/zorzal1.mp3"
+    },
+    {
+      nombre: "Chincol",
+      cientifico: "Zonotrichia capensis",
+      desc: "Collar café característico.",
+      img: "/imagenes/chincol1.jpg",
+      audio: "/audios/chincol1.mp3"
+    },
+    {
+      nombre: "Mirlo",
+      cientifico: "Molothrus bonariensis",
+      desc: "Parásito de nido: pone huevos en otras aves.",
+      img: "/imagenes/mirlo1.jpg",
+      audio: "/audios/mirlo1.mp3"
+    },
+    {
+      nombre: "Tordo",
+      cientifico: "Curaeus curaeus",
+      desc: "Negro brillante, común en praderas.",
+      img: "/imagenes/tordo1.jpg",
+      audio: "/audios/tordo1.mp3"
+    }
+  ];
+
+  return (
+    <main className="min-h-screen bg-gray-100 p-6">
+      <h1 className="text-3xl font-bold mb-6 text-center">
+        Aves de Chile
+      </h1>
+
+      <div className="grid gap-6 md:grid-cols-3">
+        {aves.map((ave, i) => (
+          <div key={i} className="bg-white rounded-2xl shadow p-4">
+            
+            <img src={ave.img} className="rounded-xl mb-3" />
+
+            <h2 className="text-xl font-semibold">{ave.nombre}</h2>
+            <p className="italic text-sm">{ave.cientifico}</p>
+
+            <p className="mt-2 text-gray-600">{ave.desc}</p>
+
+            <audio controls className="mt-3 w-full">
+              <source src={ave.audio} />
+            </audio>
+
+          </div>
+        ))}
+      </div>
+    </main>
+  );
+}

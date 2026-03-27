@@ -14,9 +14,11 @@ export default function Home() {
         </p>
 
         <div className="mt-10 flex gap-4">
-          <button className="rounded-2xl bg-white px-6 py-3 text-green-900 font-semibold transition hover:scale-105">
-            Explorar especies
-          </button>
+          <a href="/especies">
+            <button className="rounded-2xl bg-white px-6 py-3 text-green-900 font-semibold transition hover:scale-105">
+              Explorar especies
+            </button>
+          </a>
 
           <button className="rounded-2xl border border-white px-6 py-3 transition hover:bg-white hover:text-green-900">
             Ver galería
