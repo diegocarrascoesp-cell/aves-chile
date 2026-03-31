@@ -20,7 +20,7 @@ const aves: Ave[] = [
     habitat: "Jardines, plazas, sectores arbolados y bordes de bosque.",
     identificacion: "Pecho anaranjado, dorso pardo y patas amarillas.",
     dimorfismo: "Leve; macho y hembra muy parecidos.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/zorzal1"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
