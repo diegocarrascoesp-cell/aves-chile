@@ -20,7 +20,7 @@ const aves: Ave[] = [
     habitat: "Jardines, plazas, sectores arbolados y bordes de bosque.",
     identificacion: "Pecho anaranjado, dorso pardo y patas amarillas.",
     dimorfismo: "Leve; macho y hembra muy parecidos.",
-    imagenes: ["/imagenes/zorzal1"],
+    imagenes: ["/public/imagenes/zorzal1.jpg"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -31,7 +31,7 @@ const aves: Ave[] = [
     habitat: "Jardines, campos, matorrales y ciudades.",
     identificacion: "Cabeza con franjas, collar rufo y copete discreto.",
     dimorfismo: "Poco marcado; macho y hembra similares.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/chincol1.jpg"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
