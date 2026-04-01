@@ -20,7 +20,7 @@ const aves: Ave[] = [
     habitat: "Jardines, plazas, sectores arbolados y bordes de bosque.",
     identificacion: "Pecho anaranjado, dorso pardo y patas amarillas.",
     dimorfismo: "Leve; macho y hembra muy parecidos.",
-    imagenes: ["/imagenes/zorzal-1.jpg"],
+    imagenes: ["/imagenes/zorzal-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -31,7 +31,7 @@ const aves: Ave[] = [
     habitat: "Jardines, campos, matorrales y ciudades.",
     identificacion: "Cabeza con franjas, collar rufo y copete discreto.",
     dimorfismo: "Poco marcado; macho y hembra similares.",
-    imagenes: ["/imagenes/chincol-1.jpg"],
+    imagenes: ["/imagenes/chincol-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -53,7 +53,7 @@ const aves: Ave[] = [
     habitat: "Matorrales, zonas semiabiertas y jardines grandes.",
     identificacion: "Ave gris parda, cola larga, muy vocal.",
     dimorfismo: "No evidente a simple vista.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/tenca-1.jpg"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -64,7 +64,7 @@ const aves: Ave[] = [
     habitat: "Jardines, cercos, arbustos y zonas con cobertura vegetal.",
     identificacion: "Muy pequeño, inquieto y con cola frecuentemente levantada.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/chercan-1.jpg"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -75,7 +75,7 @@ const aves: Ave[] = [
     habitat: "Bosques, jardines y zonas arboladas; más frecuente en primavera-verano.",
     identificacion: "Oliva grisáceo, discreto, con coronilla algo más clara.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/fiofio-1.jpg"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -86,7 +86,7 @@ const aves: Ave[] = [
     habitat: "Áreas arboladas, jardines, bordes de bosque y sectores rurales.",
     identificacion: "Pequeño, con tonos amarillos y negros.",
     dimorfismo: "Macho más llamativo y amarillo; hembra más apagada.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/jilguero-1.jpg"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
