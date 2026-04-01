@@ -42,7 +42,7 @@ const aves: Ave[] = [
     habitat: "Zonas abiertas, jardines y áreas rurales.",
     identificacion: "Color grisáceo, garganta blanca y cola larga.",
     dimorfismo: "Leve; ambos sexos son parecidos.",
-    imagenes: ["/imagenes/diuca-1.jpg"],
+    imagenes: ["/imagenes/diuca-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -53,7 +53,7 @@ const aves: Ave[] = [
     habitat: "Matorrales, zonas semiabiertas y jardines grandes.",
     identificacion: "Ave gris parda, cola larga, muy vocal.",
     dimorfismo: "No evidente a simple vista.",
-    imagenes: ["/imagenes/tenca-1.jpg"],
+    imagenes: ["/imagenes/tenca-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -64,7 +64,7 @@ const aves: Ave[] = [
     habitat: "Jardines, cercos, arbustos y zonas con cobertura vegetal.",
     identificacion: "Muy pequeño, inquieto y con cola frecuentemente levantada.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/chercan-1.jpg"],
+    imagenes: ["/imagenes/chercan-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -75,7 +75,7 @@ const aves: Ave[] = [
     habitat: "Bosques, jardines y zonas arboladas; más frecuente en primavera-verano.",
     identificacion: "Oliva grisáceo, discreto, con coronilla algo más clara.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/fiofio-1.jpg"],
+    imagenes: ["/imagenes/fiofio-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -86,7 +86,7 @@ const aves: Ave[] = [
     habitat: "Áreas arboladas, jardines, bordes de bosque y sectores rurales.",
     identificacion: "Pequeño, con tonos amarillos y negros.",
     dimorfismo: "Macho más llamativo y amarillo; hembra más apagada.",
-    imagenes: ["/imagenes/jilguero-1.jpg"],
+    imagenes: ["/imagenes/jilguero-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -97,7 +97,7 @@ const aves: Ave[] = [
     habitat: "Jardines, bosque nativo, matorrales y zonas floridas.",
     identificacion: "Colibrí pequeño; vuelo suspendido y muy rápido.",
     dimorfismo: "Macho con brillo más evidente; hembra más pálida.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/picaflor-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -108,7 +108,7 @@ const aves: Ave[] = [
     habitat: "Praderas, potreros y campos abiertos.",
     identificacion: "Pecho rojo intenso en el macho, muy característico.",
     dimorfismo: "Macho con pecho rojo intenso; hembra parda listada.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/loica-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -119,7 +119,7 @@ const aves: Ave[] = [
     habitat: "Praderas, humedales, campos y sectores abiertos.",
     identificacion: "Llamativo, con canto fuerte y espolones en las alas.",
     dimorfismo: "Leve; ambos sexos similares.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/queltehue-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -130,7 +130,7 @@ const aves: Ave[] = [
     habitat: "Praderas húmedas, campos, humedales y lagunas.",
     identificacion: "Pico largo curvo y vuelo en grupos con vocalización fuerte.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/bandurria-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -141,7 +141,7 @@ const aves: Ave[] = [
     habitat: "Bosque nativo templado y zonas arboladas del sur.",
     identificacion: "Ceja clara, cola larga y muy activo entre ramas.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/rayadito-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -152,7 +152,7 @@ const aves: Ave[] = [
     habitat: "Bosque húmedo, sotobosque denso.",
     identificacion: "Pecho rojizo y canto muy característico del bosque sureño.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/chucao-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -163,7 +163,7 @@ const aves: Ave[] = [
     habitat: "Bosque templado y sotobosque cerrado.",
     identificacion: "Grande para un tapaculo, de tonos pardos; más oído que visto.",
     dimorfismo: "No evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/huedhued-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -174,7 +174,7 @@ const aves: Ave[] = [
     habitat: "Ríos, lagos, esteros y zonas lacustres.",
     identificacion: "Grande, crestudo, de pico fuerte; suele posarse cerca del agua.",
     dimorfismo: "Macho y hembra difieren en el patrón del pecho.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/martinpescador-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -185,7 +185,7 @@ const aves: Ave[] = [
     habitat: "Lagos, lagunas y humedales.",
     identificacion: "Ave acuática oscura con escudo frontal claro.",
     dimorfismo: "Leve o poco evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/tagua-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -196,18 +196,7 @@ const aves: Ave[] = [
     habitat: "Lagunas, humedales y cuerpos de agua tranquilos.",
     identificacion: "Pato pequeño de patrón moteado.",
     dimorfismo: "Leve; macho y hembra relativamente parecidos.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
-    audios: ["/audios/placeholder-audio.mp3"],
-  },
-  {
-    nombre: "Pato jergón grande",
-    cientifico: "Anas georgica",
-    tamano: "45–55 cm",
-    alimentacion: "Vegetación acuática, semillas e invertebrados.",
-    habitat: "Lagos, lagunas, riberas y humedales.",
-    identificacion: "Cuello relativamente largo y aspecto estilizado.",
-    dimorfismo: "Leve; hembra más apagada.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/patojergon-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -218,7 +207,7 @@ const aves: Ave[] = [
     habitat: "Lagos y lagunas grandes.",
     identificacion: "Cuello largo, perfil elegante y conducta buceadora.",
     dimorfismo: "Poco evidente.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/huala-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -229,7 +218,7 @@ const aves: Ave[] = [
     habitat: "Totorales y vegetación palustre.",
     identificacion: "Muy pequeño y llamativo, con varios colores visibles.",
     dimorfismo: "Leve; ambos sexos parecidos.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/sietecolores-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -241,7 +230,7 @@ const aves: Ave[] = [
     identificacion: "Ave oscura; el macho suele verse negro brillante.",
     dimorfismo: "Macho negro brillante; hembra más parda o apagada.",
     nota: "Importante: es un parásito de cría; pone sus huevos en nidos de otras aves.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/mirlo-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
   {
@@ -250,9 +239,9 @@ const aves: Ave[] = [
     tamano: "25–28 cm",
     alimentacion: "Insectos, granos y otros recursos del suelo.",
     habitat: "Campos, pastizales y sectores rurales.",
-    identificacion: "Negro con brillo violáceo o azulado, robusto.",
+    identificacion: "Negro con brillo violáceo o azulado, robusto. *Se diferencia de Mirlo por el brillo de su plumaje",
     dimorfismo: "Leve; ambos sexos oscuros, hembra algo menos brillante.",
-    imagenes: ["/imagenes/placeholder-ave.jpg"],
+    imagenes: ["/imagenes/tordo-1.png"],
     audios: ["/audios/placeholder-audio.mp3"],
   },
 ];
@@ -387,13 +376,11 @@ export default function EspeciesPage() {
         <footer className="mt-12 rounded-2xl border border-gray-200 bg-white p-6 text-sm text-gray-600 shadow-sm">
           <h3 className="text-base font-semibold text-gray-900">Créditos y fuentes</h3>
           <p className="mt-2">
-            Aquí puedes dejar la atribución final de imágenes, audios y textos
-            cuando reemplaces los placeholders. Por ejemplo:
+            Para mayor información existe múltiples sitios como avesdechile.cl o Cornell Lab
           </p>
           <ul className="mt-3 list-disc space-y-1 pl-5">
-            <li>Imágenes: autor, sitio y licencia.</li>
-            <li>Audios: registro, autor, sitio y licencia.</li>
-            <li>Texto: elaboración propia a partir de fuentes ornitológicas.</li>
+            <li>Imágenes: Ilustraciones creadas artificialmente</li>
+            <li>Audios: Audios extraídos de Xeno-canto</li>
           </ul>
         </footer>
       </div>
