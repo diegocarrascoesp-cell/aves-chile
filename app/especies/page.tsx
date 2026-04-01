@@ -288,11 +288,13 @@ function BirdImage({ src, alt }: { src: string; alt: string }) {
   }
 
   return (
-    <img
-      src={src}
-      alt={alt}
-      className="h-52 w-full rounded-xl object-cover"
+      <div className="flex h-64 w-full items-center justify-center rounded-xl bg-gray-100 p-2">
+        <img
+        src={src}
+        alt={alt}
+        className="max-h-full max-w-full rounded-lg object-contain"
     />
+  </div>
   );
 }
 
